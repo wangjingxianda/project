@@ -3,28 +3,28 @@ This project implements a RAG-based (Retrieval-Augmented Generation) question–
 ### 1、代码结构
 
 ```
-.
-├── Dockerfile                     # 镜像文件
-├── README.md                      # 说明文档
-├── bm25_retriever.py              # BM25召回
-├── build.sh                       # 镜像编译打包
-├── data                           # 数据目录
-│   ├── result.json                # 结果提交文件
-│   ├── test_question.json         # 测试集
-│   └── train_a.pdf                # 训练集
-├── faiss_retriever.py             # faiss向量召回
-├── vllm_model.py                  # vllm大模型加速wrapper
-├── pdf_parse.py                   # pdf文档解析器
-├── pre_train_model                # 预训练大模型
-│   ├── Qwen-7B-Chat               # Qwen-7B
-│   │   └── download.py
-│   ├── bge-reranker-large         # bge重排序模型
-│   └── m3e-large                  # 向量检索模型
-├── qwen_generation_utils.py       # qwen答案生成的工具函数
-├── requirements.txt               # 此项目的第三方依赖库
-├── rerank_model.py                # 重排序逻辑
-├── run.py                         # 主文件                         
-└── run.sh                         # 主运行脚本             
+..
+├── Dockerfile                     # Docker image
+├── README.md                      # Documentation
+├── bm25_retriever.py              # BM25 retriever
+├── build.sh                       # Build script
+├── data                           # Data directory
+│   ├── result.json                # Submission file
+│   ├── test_question.json         # Test set
+│   └── train_a.pdf                # Training material
+├── faiss_retriever.py             # FAISS vector retriever
+├── vllm_model.py                  # vLLM wrapper
+├── pdf_parse.py                   # PDF parser
+├── pre_train_model                # Pre-trained models
+│   ├── Qwen-7B-Chat               # Qwen-7B
+│   └── bge-reranker-large         # Reranker model
+│   └── m3e-large                  # Embedding model
+├── qwen_generation_utils.py       # Qwen generation utilities
+├── requirements.txt               # Dependencies
+├── rerank_model.py                # Reranking module
+├── run.py                         # Main entry
+└── run.sh                         # Run script
+          
 ```
 
 2. Project Overview
