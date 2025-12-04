@@ -1,7 +1,7 @@
 This project implements a RAG-based (Retrieval-Augmented Generation) question–answering system for intelligent vehicle manuals. It uses existing car owner manuals to build a knowledge base, retrieves relevant information, and generates accurate answers with LLMs. The whole pipeline contains three major parts: knowledge base construction, information retrieval, and answer generation.
 
 1. Project Structure
-.
+
 ├── Dockerfile                     # Docker image
 ├── README.md                      # Documentation
 ├── bm25_retriever.py              # BM25 retriever
