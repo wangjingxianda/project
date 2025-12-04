@@ -15,10 +15,6 @@ This project implements a RAG-based (Retrieval-Augmented Generation) question–
 ├── faiss_retriever.py             # FAISS vector retriever
 ├── vllm_model.py                  # vLLM wrapper
 ├── pdf_parse.py                   # PDF parser
-├── pre_train_model                # Pre-trained models
-│   ├── Qwen-7B-Chat               # Qwen-7B
-│   └── bge-reranker-large         # Reranker model
-│   └── m3e-large                  # Embedding model
 ├── qwen_generation_utils.py       # Qwen generation utilities
 ├── requirements.txt               # Dependencies
 ├── rerank_model.py                # Reranking module
