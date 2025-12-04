@@ -2,7 +2,7 @@ This project implements a RAG-based (Retrieval-Augmented Generation) question–
 
 ### 1、代码结构
 
-``text`
+```
 .
 ├── Dockerfile                     # 镜像文件
 ├── README.md                      # 说明文档
