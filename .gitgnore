@@ -1,0 +1,16 @@
+# ignore model weights
+pre_train_model/
+*.bin
+*.bin.*
+*.pt
+*.ckpt
+
+# ignore temporary files
+*.qkdownloading
+*.cache
+__pycache__/
+
+# optional: ignore big data files
+data/
+datasets/
+logs/
